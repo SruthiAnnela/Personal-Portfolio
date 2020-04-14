@@ -163,7 +163,7 @@ body{
 
 /* Portfoilio */
 
-#Portfolio{
+#Portfolio, .portfolio-resume{
     background:linear-gradient(90deg,black,honeydew,black);
     color:black;
 }
@@ -180,6 +180,7 @@ body{
     position: relative;
     border:2px solid white;
     box-shadow:0 0 10px black;
+    margin:auto;
  }
 div.project{
     width:100%;
@@ -266,6 +267,21 @@ div.project{
         transform: translate(-100px);
     }
 }
+.portfolio-resume a{
+    text-decoration: none;
+    color:black;
+    border-radius:50px;
+    font-size:16px;
+    font-weight:500;
+}
+.btn-outline-white {
+    color:black !important; 
+}
+.btn-outline-white:hover, .btn-outline-white:focus, .btn-outline-white:active, .btn-outline-white:active:focus, .btn-outline-white.active {
+    border-color:white !important;
+    background-color:rgb(255,255,0,0.5) !important	;
+  }
+  
 
 /* Contact Me */
 #Contact{
